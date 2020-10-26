@@ -1,0 +1,86 @@
+/*
+    Custom CSS overwriting bootstrap CSS.
+
+    Notice that it goes in a SEPARATE CSS file to the base CSS.
+*/
+.blog-header {
+  line-height: 1;
+  border-bottom: 10px solid #344466;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+title {
+  display: grid;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Libre Caslon Text', serif;
+  color: #92817A;
+  color: white);
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Libre Caslon Text', serif;
+  color: black;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.sidepanel {
+  background: #343c43 no-repeat top left;
+  min-height: 100vh;
+}
+
+.rightpanel {
+  background: darkgray;
+}
+
+.red-nav a.nav-link.active {
+  background: #92817A;
+  color: #343c43;
+  border-radius: 50px;
+}
+
+.red-nav .nav-link {
+  color: #92817A;
+  font-size: 20pt;
+  text-transform: lowercase;
+  font-family: 'Exo', sans-serif;
+  font-weight: 200;
+}
+
+.btn-red {
+  background: #92817A;
+  color: #343c43;
+}
+
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.personalbio {;
+  font-size: 14pt;
+  padding: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.buttons {;
+  font-size: 20pt;
+  padding: 20px;
+  margin: 20px;
+  text-align: justify;
+}
